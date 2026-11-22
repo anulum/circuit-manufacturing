@@ -3,7 +3,7 @@
   "claims": [],
   "domain_runtime_dependencies": [],
   "evidence_maturity": "architecture_only",
-  "lifecycle": "local_scaffold",
+  "lifecycle": "public_repository",
   "owner_group": "SC-NEUROMORPHIC-COMPUTING-SYSTEMS",
   "planned_owned_schema_ids": [
     "circuit_manufacturing.manufacturing_package.v1",
@@ -20,6 +20,7 @@
     "circuit_manufacturing.hardware_bom_and_provenance_record.v1",
     "circuit_manufacturing.corrective_action_and_rma_record.v1"
   ],
+  "public_remote": "https://github.com/anulum/circuit-manufacturing",
   "qualified_owned_schema_ids": [],
   "repository_name": "CIRCUIT-MANUFACTURING",
   "tooling_python": {

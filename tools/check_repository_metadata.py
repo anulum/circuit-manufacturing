@@ -18,6 +18,10 @@ from pathlib import Path
 from typing import NoReturn, TextIO
 
 REPOSITORY_NAME = "CIRCUIT-MANUFACTURING"
+#: The Tier-0 lifecycle phase: the repository is published at its canonical public remote.
+LIFECYCLE = "public_repository"
+#: The canonical public remote: the lower-case repository name under the owner account.
+PUBLIC_REMOTE = "https://github.com/anulum/circuit-manufacturing"
 PROFILE_SHA256 = "f453a70eae008c41f8d26a1f495ec3636f64739bcedb9caac0bdf8774300905c"
 STANDARD_SHA256 = "8421674a61444474447fad2f4d2bfc54dc5a1ea12ae988785e57dbcab385938c"
 LOCK_SHA256 = "9befae5b53c8a83b28f69a04c23fd9ddff2bab3193d61ad13d845f9cbd8eb751"
@@ -122,7 +126,8 @@ def repository_schema() -> dict[str, object]:
     properties = {
         "repository_name": {"const": REPOSITORY_NAME},
         "owner_group": {"const": "SC-NEUROMORPHIC-COMPUTING-SYSTEMS"},
-        "lifecycle": {"const": "local_scaffold"},
+        "lifecycle": {"const": LIFECYCLE},
+        "public_remote": {"const": PUBLIC_REMOTE},
         "evidence_maturity": {"const": "architecture_only"},
         "capabilities": empty,
         "claims": empty,
@@ -157,7 +162,8 @@ def _selected_metadata() -> dict[str, object]:
     return {
         "repository_name": REPOSITORY_NAME,
         "owner_group": "SC-NEUROMORPHIC-COMPUTING-SYSTEMS",
-        "lifecycle": "local_scaffold",
+        "lifecycle": LIFECYCLE,
+        "public_remote": PUBLIC_REMOTE,
         "evidence_maturity": "architecture_only",
         "capabilities": [],
         "claims": [],
