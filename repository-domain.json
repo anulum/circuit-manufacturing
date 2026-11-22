@@ -1,0 +1,37 @@
+{
+  "capabilities": [],
+  "claims": [],
+  "domain_runtime_dependencies": [],
+  "evidence_maturity": "architecture_only",
+  "lifecycle": "local_scaffold",
+  "owner_group": "SC-NEUROMORPHIC-COMPUTING-SYSTEMS",
+  "planned_owned_schema_ids": [
+    "circuit_manufacturing.manufacturing_package.v1",
+    "circuit_manufacturing.process_route.v1",
+    "circuit_manufacturing.recipe_release.v1",
+    "circuit_manufacturing.material_state.v1",
+    "circuit_manufacturing.genealogy_event.v1",
+    "circuit_manufacturing.work_order.v1",
+    "circuit_manufacturing.material_disposition.v1",
+    "circuit_manufacturing.change_proposal.v1",
+    "circuit_manufacturing.supplier_handoff.v1",
+    "circuit_manufacturing.wafer_sort_and_test_feed_record.v1",
+    "circuit_manufacturing.unit_serial_genealogy.v1",
+    "circuit_manufacturing.hardware_bom_and_provenance_record.v1",
+    "circuit_manufacturing.corrective_action_and_rma_record.v1"
+  ],
+  "qualified_owned_schema_ids": [],
+  "repository_name": "CIRCUIT-MANUFACTURING",
+  "tooling_python": {
+    "actual_version": "3.13.16",
+    "design_baseline": "3.13",
+    "development_lock_sha256": "9befae5b53c8a83b28f69a04c23fd9ddff2bab3193d61ad13d845f9cbd8eb751",
+    "supported_range": ">=3.13.16,<3.14"
+  },
+  "validation_profile": {
+    "id": "gotm.enterprise-repository-tier0.local-scaffold",
+    "profile_sha256": "f453a70eae008c41f8d26a1f495ec3636f64739bcedb9caac0bdf8774300905c",
+    "revision": "2026-10-04",
+    "standard_sha256": "8421674a61444474447fad2f4d2bfc54dc5a1ea12ae988785e57dbcab385938c"
+  }
+}

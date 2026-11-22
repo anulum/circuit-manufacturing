@@ -1,0 +1,19 @@
+{
+  "creators": [
+    {
+      "affiliation": "ANULUM",
+      "name": "Šotek, Miroslav",
+      "orcid": "0009-0009-3560-0851"
+    }
+  ],
+  "description": "Architecture-only repository validation tooling and design for semiconductor tapeout handoff, manufacturing execution and lot traceability: manufacturing packages, process routes, recipe releases, material and moisture tracking, wafer-sort capability lower-confidence gating, unit serial genealogy, hardware bill-of-materials provenance and corrective-action containment. No manufacturing-execution package, wafer-sort analyser, genealogy tracker, RMA engine or qualified record schema is released.",
+  "keywords": [
+    "semiconductor manufacturing",
+    "wafer-sort capability",
+    "unit serial genealogy",
+    "evidence provenance"
+  ],
+  "license": "AGPL-3.0-or-later",
+  "title": "Circuit Manufacturing",
+  "upload_type": "software"
+}

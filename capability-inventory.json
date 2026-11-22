@@ -1,0 +1,12 @@
+{
+  "capabilities": [],
+  "claims": [],
+  "evidence_maturity": "architecture_only",
+  "lifecycle": "local_scaffold",
+  "qualified_owned_schema_ids": [],
+  "repository_name": "CIRCUIT-MANUFACTURING",
+  "source_metadata": {
+    "path": "repository-domain.json",
+    "sha256": "c67e8a2668460b4f40d2e7adc7504ead39ff7f2721e469804198283c3c99ac6d"
+  }
+}
